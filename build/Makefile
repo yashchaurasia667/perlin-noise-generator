@@ -135,6 +135,30 @@ perlin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\perlin.dir\build.make CMakeFiles/perlin.dir/build
 .PHONY : perlin/fast
 
+lib/draw.obj: lib/draw.cpp.obj
+.PHONY : lib/draw.obj
+
+# target to build an object file
+lib/draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\perlin.dir\build.make CMakeFiles/perlin.dir/lib/draw.cpp.obj
+.PHONY : lib/draw.cpp.obj
+
+lib/draw.i: lib/draw.cpp.i
+.PHONY : lib/draw.i
+
+# target to preprocess a source file
+lib/draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\perlin.dir\build.make CMakeFiles/perlin.dir/lib/draw.cpp.i
+.PHONY : lib/draw.cpp.i
+
+lib/draw.s: lib/draw.cpp.s
+.PHONY : lib/draw.s
+
+# target to generate assembly for a file
+lib/draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\perlin.dir\build.make CMakeFiles/perlin.dir/lib/draw.cpp.s
+.PHONY : lib/draw.cpp.s
+
 lib/glad.obj: lib/glad.c.obj
 .PHONY : lib/glad.obj
 
@@ -193,6 +217,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... perlin
+	@echo ... lib/draw.obj
+	@echo ... lib/draw.i
+	@echo ... lib/draw.s
 	@echo ... lib/glad.obj
 	@echo ... lib/glad.i
 	@echo ... lib/glad.s

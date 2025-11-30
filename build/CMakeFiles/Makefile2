@@ -84,12 +84,12 @@ clean: CMakeFiles/perlin.dir/clean
 CMakeFiles/perlin.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\perlin.dir\build.make CMakeFiles/perlin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\perlin.dir\build.make CMakeFiles/perlin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\build\CMakeFiles" --progress-num=1,2,3 "Built target perlin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\build\CMakeFiles" --progress-num=1,2,3,4 "Built target perlin"
 .PHONY : CMakeFiles/perlin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/perlin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\build\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\build\CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/perlin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\build\CMakeFiles" 0
 .PHONY : CMakeFiles/perlin.dir/rule
@@ -101,7 +101,7 @@ perlin: CMakeFiles/perlin.dir/rule
 # codegen rule for target.
 CMakeFiles/perlin.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\perlin.dir\build.make CMakeFiles/perlin.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target perlin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\build\CMakeFiles" --progress-num=1,2,3,4 "Finished codegen for target perlin"
 .PHONY : CMakeFiles/perlin.dir/codegen
 
 # clean rule for target.
