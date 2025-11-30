@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/perlin.dir/lib/draw.cpp.obj"
-  "CMakeFiles/perlin.dir/lib/draw.cpp.obj.d"
   "CMakeFiles/perlin.dir/lib/glad.c.obj"
   "CMakeFiles/perlin.dir/lib/glad.c.obj.d"
+  "CMakeFiles/perlin.dir/lib/shader.cpp.obj"
+  "CMakeFiles/perlin.dir/lib/shader.cpp.obj.d"
   "CMakeFiles/perlin.dir/main.cpp.obj"
   "CMakeFiles/perlin.dir/main.cpp.obj.d"
   "libperlin.dll.a"

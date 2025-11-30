@@ -101,33 +101,33 @@ CMakeFiles/perlin.dir/lib/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/perlin.dir/lib/glad.c.s"
 	C:\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\lib\glad.c" -o CMakeFiles\perlin.dir\lib\glad.c.s
 
-CMakeFiles/perlin.dir/lib/draw.cpp.obj: CMakeFiles/perlin.dir/flags.make
-CMakeFiles/perlin.dir/lib/draw.cpp.obj: CMakeFiles/perlin.dir/includes_CXX.rsp
-CMakeFiles/perlin.dir/lib/draw.cpp.obj: C:/Users/yashc/Documents/Stuff/Pending\ projects/perlin\ noise\ map\ generator/lib/draw.cpp
-CMakeFiles/perlin.dir/lib/draw.cpp.obj: CMakeFiles/perlin.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/perlin.dir/lib/draw.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/perlin.dir/lib/draw.cpp.obj -MF CMakeFiles\perlin.dir\lib\draw.cpp.obj.d -o CMakeFiles\perlin.dir\lib\draw.cpp.obj -c "C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\lib\draw.cpp"
+CMakeFiles/perlin.dir/lib/shader.cpp.obj: CMakeFiles/perlin.dir/flags.make
+CMakeFiles/perlin.dir/lib/shader.cpp.obj: CMakeFiles/perlin.dir/includes_CXX.rsp
+CMakeFiles/perlin.dir/lib/shader.cpp.obj: C:/Users/yashc/Documents/Stuff/Pending\ projects/perlin\ noise\ map\ generator/lib/shader.cpp
+CMakeFiles/perlin.dir/lib/shader.cpp.obj: CMakeFiles/perlin.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/perlin.dir/lib/shader.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/perlin.dir/lib/shader.cpp.obj -MF CMakeFiles\perlin.dir\lib\shader.cpp.obj.d -o CMakeFiles\perlin.dir\lib\shader.cpp.obj -c "C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\lib\shader.cpp"
 
-CMakeFiles/perlin.dir/lib/draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/perlin.dir/lib/draw.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\lib\draw.cpp" > CMakeFiles\perlin.dir\lib\draw.cpp.i
+CMakeFiles/perlin.dir/lib/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/perlin.dir/lib/shader.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\lib\shader.cpp" > CMakeFiles\perlin.dir\lib\shader.cpp.i
 
-CMakeFiles/perlin.dir/lib/draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/perlin.dir/lib/draw.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\lib\draw.cpp" -o CMakeFiles\perlin.dir\lib\draw.cpp.s
+CMakeFiles/perlin.dir/lib/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/perlin.dir/lib/shader.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\yashc\Documents\Stuff\Pending projects\perlin noise map generator\lib\shader.cpp" -o CMakeFiles\perlin.dir\lib\shader.cpp.s
 
 # Object files for target perlin
 perlin_OBJECTS = \
 "CMakeFiles/perlin.dir/main.cpp.obj" \
 "CMakeFiles/perlin.dir/lib/glad.c.obj" \
-"CMakeFiles/perlin.dir/lib/draw.cpp.obj"
+"CMakeFiles/perlin.dir/lib/shader.cpp.obj"
 
 # External object files for target perlin
 perlin_EXTERNAL_OBJECTS =
 
 perlin.exe: CMakeFiles/perlin.dir/main.cpp.obj
 perlin.exe: CMakeFiles/perlin.dir/lib/glad.c.obj
-perlin.exe: CMakeFiles/perlin.dir/lib/draw.cpp.obj
+perlin.exe: CMakeFiles/perlin.dir/lib/shader.cpp.obj
 perlin.exe: CMakeFiles/perlin.dir/build.make
 perlin.exe: C:/Users/yashc/Documents/Stuff/Pending\ projects/perlin\ noise\ map\ generator/lib/libglfw3.a
 perlin.exe: CMakeFiles/perlin.dir/linkLibs.rsp
