@@ -133,13 +133,6 @@ float perlin(float x, float y)
   float nx = x - (float)x0;
   float ny = y - (float)y0;
 
-  // float n0 = dotGridGradient(x0, y0, x, y);
-  // float n1 = dotGridGradient(x1, y0, x, y);
-  // float ix0 = interpolate(n0, n1, nx);
-
-  // n0 = dotGridGradient(x1, y1, x, y);
-  // n1 = dotGridGradient(x0, y1, x, y);
-  // float ix1 = interpolate(n0, n1, nx);
   float n00 = dotGridGradient(x0, y0, x, y);
   float n10 = dotGridGradient(x1, y0, x, y);
   float ix0 = interpolate(n00, n10, nx);
@@ -154,7 +147,7 @@ float perlin(float x, float y)
 
 int main()
 {
-  std::srand(std::time(0));
+  std::srand(glfwGetTime());
 
   for (int i = 0; i < CELLS; i++)
     for (int j = 0; j < CELLS; j++)
