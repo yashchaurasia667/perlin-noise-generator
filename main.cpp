@@ -167,6 +167,8 @@ int main()
     {
       vector2 coords = translatePixelToCoordinate(i, j);
       float noise = perlin(coords.x, coords.y);
+      noise += 1.0f;
+      noise /= 2.0f;
       // std::cout << noise << std::endl;
       pixels[i][j] = noise;
     }
